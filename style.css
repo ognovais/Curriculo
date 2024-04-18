@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    text-align:center;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: rgb(121, 82, 82);
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: fixed;
+      top: 68%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+}
+
+.link-button:hover {
+    background-color: rgb(121, 82, 82);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
