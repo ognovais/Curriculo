@@ -40,6 +40,7 @@ body {
 
 .link-button:hover > p {
     color: black;
+    font-weight: 1000;
     transition-delay: .1s;
 }
 
