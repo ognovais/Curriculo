@@ -1,6 +1,7 @@
 body {
-    background-color: gray;
+    background-color: black;
     overflow: hidden;
+    font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -18,14 +19,14 @@ body {
 
 .link-button {
     display: inline-block;
-    background-color: rgb(121, 82, 82);
+    background-color: lightgray;
     color: #fff;
-    padding: 10px 25px;
+    padding: 3px 25px;
     text-decoration: none;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid #fff;
     position: fixed;
       top: 68%; 
       left: 50%; 
@@ -33,13 +34,21 @@ body {
 }
 
 .link-button:hover {
-    background-color: rgb(121, 82, 82);
+    background-color: white;
+    transition-delay: .1s;
+}
+
+.link-button:hover > p {
+    color: black;
+    transition-delay: .1s;
 }
 
 h1 {
     font-size: 50px;
+    color: #fff;
 }
 
-p {
+.content {
     font-size: 25px;
+    color: #fff;
 }
