@@ -21,12 +21,12 @@ body {
     display: inline-block;
     background-color: lightgray;
     color: #fff;
-    padding: 3px 25px;
+    padding: 3px 35px;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid #fff;
+    border-radius: 16px;
+    border: 3px solid #fff;
     position: fixed;
       top: 68%; 
       left: 50%; 
